@@ -1,0 +1,15 @@
+PC1
+PC2
+PC3
+PC4
+PC5
+MACCS1_c
+MACCS2_c
+MACCS3_c
+MACCS4_c
+MACCS1_r
+MACCS2_r
+MACCS3_r
+MACCS4_r
+conc_c
+conc_r

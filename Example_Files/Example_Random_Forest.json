@@ -1,0 +1,15 @@
+{
+  "data_file": "Example_Data.txt",
+  "features": "Example_Features.txt",
+  "train_samples": "Example_Train_Samples.txt",
+  "test_samples": "Example_Test_Samples.txt",
+  "result_folder": "Output_Random_Forest",
+  "responses": "inhibition",
+  "seed": 1234,
+  "model_parameters": {
+    "num_trees": 100,
+    "mtry": [1,3,5],
+    "max_depth": [2, 5],
+    "min_samples_leaf": [2, 4]
+  }
+}

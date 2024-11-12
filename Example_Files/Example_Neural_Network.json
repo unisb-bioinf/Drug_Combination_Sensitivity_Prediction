@@ -1,0 +1,22 @@
+{
+  "data_file": "/home/s8leeckh/DrugComb/WithDrugFeatures/Data_freq_threshold_10000_300_PCA_MACCS_duplicated.txt",
+  "features": "/home/s8leeckh/DrugComb/WithDrugFeatures/All_features_freq_threshold_10000_300_PCA_MACCS.txt",
+  "train_samples": "/home/s8leeckh/DrugComb/WithDrugFeatures/Train_names_freq_threshold_10000_MACCS_duplicated.txt",
+  "test_samples": "/home/s8leeckh/DrugComb/WithDrugFeatures/Test_names_freq_threshold_10000_MACCS_duplicated.txt",
+  "result_folder": "/home/s8leeckh/DrugComb/Final_Runs/MACCS_duplicated/NN",
+  "responses": "inhibition",
+  "seed": 2208,
+  "model_parameters": {
+    "activation": ["tanh", "elu"],
+    "loss": "mean_squared_error",
+    "learning_rate_factor": [1, 0.1, 10],
+    "num_hidden_layers": [1, 2, 3, 4, 5],
+    "dropout": [0.1, 0.3],
+    "batch_size": 256,
+    "shape": "triangle",
+    "bias_initializer": 0.01,
+    "kernel_regularizer": "l2",
+    "epochs": 300,
+    "patience": 15
+  }
+}

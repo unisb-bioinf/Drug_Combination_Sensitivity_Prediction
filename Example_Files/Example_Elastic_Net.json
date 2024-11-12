@@ -1,0 +1,13 @@
+{
+  "data_file": "Example_Data.txt",
+  "features": "Example_Features.txt",
+  "train_samples": "Example_Train_Samples.txt",
+  "test_samples": "Example_Test_Samples.txt",
+  "result_folder": "Output_Elastic_Net",
+  "responses": "inhibition",
+  "seed": 1234,
+  "model_parameters": {
+    "alpha": [0.01, 0.1, 1, 10, 100],
+    "l1_ratio": [0, 0.25, 0.5, 0.75, 1]
+  }
+}

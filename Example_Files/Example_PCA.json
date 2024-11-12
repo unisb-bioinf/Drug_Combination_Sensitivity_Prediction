@@ -1,0 +1,7 @@
+{
+  "train_path": "Example_Train_Cells.txt",
+  "test_path": "Example_Test_Cells.txt",
+  "exp_path": "Example_Exp_Data.txt",
+  "num_features": 5,
+  "output_file": "Example_PCA.txt"
+}
